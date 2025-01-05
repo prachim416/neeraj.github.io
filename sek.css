@@ -1,0 +1,23 @@
+.collage img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+  .collage .grid-item {
+    overflow: hidden;
+    display: inline-block; /* Ensure proper alignment */
+    position: relative;
+  }
+  
+ 
+
+  .collage .grid-item {
+    transition: transform 0.5s ease; /* Smooth zoom effect */
+  }
+
+  .collage .grid-item:hover img {
+    transform: scale(1.20); /* Slight zoom-in effect */
+    box-shadow: 0 16px 32px rgba(44, 9, 161, 0.3); /* Enhanced shadow */
+  }
+
+
